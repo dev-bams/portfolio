@@ -861,6 +861,7 @@ main {
   outline: none;
   height: 200px;
   background-color: rgba(44, 188, 133, 0.1);
+  resize: none;
 }
 .submit-button-container {
   display: flex;
