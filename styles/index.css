@@ -981,6 +981,10 @@ footer {
   color: rgba(255, 255, 255, 0.5);
   line-height: 2;
 }
+.github-link{
+  color: #2cbc85;
+  text-decoration: none;
+}
 /*general selectors*/
 .body-containers-wrap {
   flex-wrap: wrap;
