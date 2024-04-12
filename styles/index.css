@@ -908,7 +908,7 @@ footer {
   margin: auto;
   background-color: #000814;
   color: #fff;
-  gap: 8rem;
+  gap: 2rem;
   width: 100%;
   min-height: 250px;
   margin-top: 2rem;
@@ -980,10 +980,34 @@ footer {
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
   line-height: 2;
+  flex-wrap: wrap;
 }
-.github-link{
+.github-link {
   color: #2cbc85;
   text-decoration: none;
+}
+.version-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.version {
+  display: flex;
+  gap: 8px;
+}
+.v2 {
+  text-decoration: none;
+  color: #fff;
+}
+.v2:visited {
+  color: #fff;
+}
+.v2:hover {
+  color: #2cbc85;
+}
+.v1 {
+  color: #2cbc85;
 }
 /*general selectors*/
 .body-containers-wrap {
