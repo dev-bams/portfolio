@@ -999,6 +999,7 @@ footer {
 .v2 {
   text-decoration: none;
   color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 .v2:visited {
   color: #fff;
