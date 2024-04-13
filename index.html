@@ -303,19 +303,20 @@
           <h2>Get in Touch with me</h2>
           <div class="bottom-contact-form">
             <div class="right-contact-form">
-              <form name="contact-me" method="post">
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <input type="text" placeholder="subject" />
+              <form name="contact-me" method="POST" netlify>
+                <input type="text" placeholder="Name" name="name" required />
+                <input type="email" placeholder="Email" name="email" required />
+                <input
+                  type="text"
+                  placeholder="subject"
+                  name="subject"
+                  required
+                />
                 <textarea placeholder="Message" required></textarea>
-                <div class="submit-button-container">
-                  <input
-                    class="submit-button"
-                    type="submit"
-                    value="Send Message"
-                  />
+                <button class="submit-button-container">
+                  send message
                   <img src="./images/send (1).png" />
-                </div>
+                </button>
               </form>
             </div>
           </div>
