@@ -2,7 +2,7 @@ secret = document.getElementById("secret");
 
 function changeSecretText() {
   console.log(secret);
-  if (secret.innerText === "SOURCE CODE") {
+  if (secret.innerText === "SECRET SAUCE") {
     secret.innerText = "👀";
   }
 }
